@@ -6,7 +6,7 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
    1. Contribution 1
    1. Contribution 2
    1. Contribution ...
-2. **Matthew Zuniga (Technical Manager)**
+2. **Matthew Zuniga (Project Manager)**
    1. Contribution 1
    1. Contribution 2
    1. Contribution ...
