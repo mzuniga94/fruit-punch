@@ -41,8 +41,7 @@ Training:
 Data Visualization:
 * We will visualize the data with matplotlib and test against the accuracy of the model in identifying these images.
 
-We will be using 
-Provide a general discussion on the data structures and algorithms that were used to achieve the goals of the project
+Currently, we are still exploring what data structures and machine learning algorithms we will use to implement this project.
 
 # Usage
 
