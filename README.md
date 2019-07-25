@@ -13,7 +13,7 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
 3. **Pooja Gajjar (Product Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Developed Project Idea(Fruit Image Identifier)
-   1. Update Development Cycle Documentation on Trello
+   1. Update Development Cycle Documentation on Trello - https://trello.com/b/9EN7AWEb
 4. **Christian Jimenez (SCRUM Master)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. ...
