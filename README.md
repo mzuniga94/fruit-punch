@@ -71,12 +71,18 @@ We will implement this by the 3rd milestone.
 
 To use, please install the following requirements:
 
-* Python 3.7+
+* Python 3.7+ (If you're on Windows, ensure that you add Python to your PATH variables when installing.)
 * matplotlib `pip install --user matplotlib`
 * sk-image `pip install --user scikit-image`
 * scipy `pip install --user scipy`
 * sklearn `pip install --user scikit-learn`
 * opencv `pip install --user opencv-python`
+
+To run the script:
+
+1) Clone the repository. `git clone <repo>`
+2) Navigate to the directory. `cd project-swifites-final-project`
+3) Run the script. `python main.py`
 
 # References
 
