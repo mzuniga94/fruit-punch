@@ -10,9 +10,9 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Created Initial README file
    1. Started current build of Python program. Initial features are:
-	* Reading fruit image data set from directories as an array of RGB pixels.
-	* Appending labels to list of images.
-	* Using knn algorithm.
+	* Preprocessing data by generating labels, converting images to grayscale.
+	* Extracting features using histogram of oriented gradients.
+	* Using knn algorithm on training and testing sets to calculate accuracy.
    1. Imported fruit image data set.
 3. **Pooja Gajjar (Product Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
