@@ -4,8 +4,9 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
 # Developers
 1. **Ryan Talactac (Technical Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
-   1. ...
-   1. ...
+   1. Uploaded initial image set.
+   1. Resolved first issue.
+   1. Implmenting a decision tree algorithm on remote branch
 2. **Matthew Zuniga (Project Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Created Initial README file
