@@ -17,7 +17,7 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
 4. **Christian Jimenez (SCRUM Master)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Research other ML Algorithms that are Supervised Learning such as decision trees
-   1.  
+   1. Collaborated on project design document by adding description 
    
 # Technical implementation
 Language(s):
