@@ -4,8 +4,9 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
 # Developers
 1. **Ryan Talactac (Technical Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
-   1. ...
-   1. ...
+   1. Uploaded initial image set.
+   1. Resolved first issue.
+   1. Implementing a decision tree algorithm on remote branch
 2. **Matthew Zuniga (Project Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Created Initial README file
@@ -17,7 +18,12 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
 3. **Pooja Gajjar (Product Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Developed Project Idea(Fruit Image Identifier)
-   1. ...
+<<<<<<< HEAD
+   1. Update Development Cycle Documentation on Trello - https://trello.com/b/9EN7AWEb
+=======
+   1. Update Development Cycle Documentation on Trello
+   1. Create Use-Cases to Run Tests on Project
+>>>>>>> refs/remotes/origin/master
 4. **Christian Jimenez (SCRUM Master)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Research other ML Algorithms that are Supervised Learning such as decision trees
