@@ -17,7 +17,7 @@ from skimage.transform import resize
 
 """
 -------------------------------------------------------------------------------------------
-@function LoadImage(): Load images and assigns labels.
+@function GenerateLabels(): Load images and assigns labels.
 @param Type: List. argLabelArray: Array to return with labels generated from data set.
 @param Type: String. argFruitName: Name of the fruit
 @param Type: Integer. argNumDirectories: Number of directories to search.
@@ -38,9 +38,9 @@ def GenerateLabels(argLabelArray, argFruitName, argNumDirectories):
 
 """
 -------------------------------------------------------------------------------------------
-@function DataPreprocess(): Preprocesses the image arrays we .
+@function DataPreprocess(): Preprocesses the image arrays.
 @param Type: List. argSet: The training/testing set.
-@returns: Type: List preprocess: Returns the processed set.
+@returns: Type: List processed: Returns the processed set.
 -------------------------------------------------------------------------------------------
 """
 def DataPreprocess(argSet):

@@ -15,23 +15,14 @@
   -------------------------------------------------------------------------------------------
 """
 import numpy as np
-import matplotlib.pyplot as plt
-import glob
-import cv2
-from PIL import Image
-
-from skimage.color import rgb2gray
-from skimage.transform import rescale, resize, downscale_local_mean
-
-from sklearn.model_selection import train_test_split
-from skimage import data, color, feature
-from skimage.feature import hog
-
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
-
 import preprocessing
 import features
+import visualization
+
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+from sklearn import tree
 
 """
 -------------------------------------------------------------------------------------------
@@ -101,7 +92,7 @@ From the sklearn library, we use the train_test_split method.
 -------------------------------------------------------------------------------------------
 """
 
-X_Train, X_Test, Y_Train, Y_Test = train_test_split(X, Y, test_size=0.2, random_state=1)
+X_Train, X_Test, Y_Train, Y_Test = train_test_split(X, Y, test_size=0.2, random_state=np.random)
 
 """
 -------------------------------------------------------------------------------------------
@@ -132,21 +123,17 @@ a high value of k, smooths data. This is a supervised learning algorith,.
 -------------------------------------------------------------------------------------------
 """
 
-knn = KNeighborsClassifier(n_jobs=5, weights='distance', n_neighbors=55)
+knn = KNeighborsClassifier(n_jobs=-1, weights='distance', n_neighbors=333) # Modify neighbors
 knn.fit(feature_X_Train, Y_Train) # See how the labels compare to the X train set with features.
 
 y_knn_prediction = knn.predict(feature_X_Test)
 
-print("The accuracy of our model with respect to feature_X_Train, Y_Train is: ", accuracy_score(Y_Test, y_knn_prediction)*100, '%')
+dt = tree.DecisionTreeClassifier()
+dt = dt.fit(feature_X_Train, Y_Train)
+y_dt_prediction = dt.predict(feature_X_Test)
 
-"""
-Currently not using this function.
-"""
-# Shows image from data set.
-# def ShowImageFromSet():
-#     w, h = 512, 512
-#     img = Image.fromarray(apple[0], 'RGB')
-#     img.save('image.png')
-#     img.show()
-#
-# ShowImageFromSet()
+print("The accuracy of knn algorithm is: ", accuracy_score(Y_Test, y_knn_prediction)*100, '%')
+print("The accuracy of decision tree algorithm is: ", accuracy_score(Y_Test, y_dt_prediction)*100, '%')
+
+visualization.ShowDataSetPlot(apple, banana, cherry, kiwi, lemon, mango, pear, strawberry)
+visualization.PlotTest(X_Test, y_knn_prediction)
