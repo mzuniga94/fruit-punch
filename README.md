@@ -8,22 +8,25 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
    1. Resolved first issue.
    1. Implementing a decision tree algorithm on remote branch
 2. **Matthew Zuniga (Project Manager)**
+Milestone 1:
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Created Initial README file
+Milestone 2:
    1. Started current build of Python program. Initial features are:
 	* Preprocessing data by generating labels, converting images to grayscale.
 	* Extracting features using histogram of oriented gradients.
 	* Using knn algorithm on training and testing sets to calculate accuracy.
    1. Imported fruit image data set.
+Milestone 3:
+	1. Finished core functionality:
+	 * Added data visualization.
+	 * Added decision tree algorithm.
 3. **Pooja Gajjar (Product Manager)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Developed Project Idea(Fruit Image Identifier)
-<<<<<<< HEAD
    1. Update Development Cycle Documentation on Trello - https://trello.com/b/9EN7AWEb
-=======
    1. Update Development Cycle Documentation on Trello
    1. Create Use-Cases to Run Tests on Project
->>>>>>> refs/remotes/origin/master
 4. **Christian Jimenez (SCRUM Master)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Research other ML Algorithms that are Supervised Learning such as decision trees
@@ -43,7 +46,7 @@ Libraries:
 Tools:
 * Google Colab
 
-##Data Preprocessing:
+## Data Preprocessing:
 We will begin by using a dataset we found on Kaggle. See the references for the source to the dataset.
 
 Since we do not have labels or CSV for our dataset, we generate the labels and array ourselves. We do this through
@@ -57,21 +60,22 @@ with the machine learning algorithm(s) we choose.
 Then, the data goes through a feature extraction using `skimage` histogram of oriented gradients function. We will adjust
 pixels_per_cell to see how that affects how our model learns for the 3rd milestone.
 
-##Training:
+## Training:
 We will train the model by using Python library sklearn.
 
 We split the data set into a training set and testing set. We use a 80/20 split for training and testing respectively.
 
-###K-Nearest Neighbors Algorithm
+### K-Nearest Neighbors Algorithm
 We use sklearn's `KNeigborsClassifier` method to classify given the processed numpy arrays. This is a supervised learning
 algorithm so it is lazy. It does not remember what it learns like a neural network.
 
-We hope to implement another machine learning algorithm by the 3rd milestone.
+### Decision Tree Algorithm
+We use sklearn's `DecisionTree` method to classify the images as well. This is different in that the shapes of the two
+sets must be the same, i.e. the same amount of elements in the both sets. It also does decisions based on a tree-like graph
+to mode possible outcomes. 
 
-##Data Visualization:
+## Data Visualization:
 We will visualize the data with matplotlib and test against the accuracy of the model in identifying these images.
-
-We will implement this by the 3rd milestone.
 
 # Usage
 
