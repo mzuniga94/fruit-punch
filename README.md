@@ -6,7 +6,10 @@ Fruit Punch is a machine learning program that trains on a dataset of fruit imag
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Uploaded initial image set.
    1. Resolved first issue.
-   1. Implementing a decision tree algorithm on remote branch
+   0. Implementing a decision tree algorithm on remote branch
+   1. Added Google Colab Notebook for Project see link below
+   1. https://colab.research.google.com/drive/1px0ILNdKhQ2tsMmVBMRZJN5KtlRksavb 
+   1. Added Documentation
 2. **Matthew Zuniga (Project Manager)**
 Milestone 1:
    1. Collaborated on brainstorming project ideas(google hangouts)
