@@ -33,7 +33,9 @@ Milestone 3:
 4. **Christian Jimenez (SCRUM Master)**
    1. Collaborated on brainstorming project ideas(google hangouts)
    1. Research other ML Algorithms that are Supervised Learning such as decision trees
-   1. Collaborated on project design document by adding description 
+   1. Collaborated on project design document by adding description, objectives and outcomes
+   1. Added project screenshots to project design document
+   1. Collaborated on Use Case brainstorming ideas
    
 # Technical Implementation
 Language(s):
